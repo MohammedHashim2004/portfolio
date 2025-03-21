@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+nav,ul,li{
+    display: inline-block;
+    margin: 0px;
+    padding: 5px;
+    color: gray;
+}
+li:hover{
+    cursor: pointer;
+    color: white;
+}
+.active{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.43);
+}
+.active:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+header h1{
+    font-size: 52px;
+}
+
+.container{
+    margin: 60px 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    min-width: 250px;
+    max-width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+}
+
+.img{
+    height: 80%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    text-align: center;
+}
+.content h2{
+    font-size: 20px;
+}
+
+.content h2,p{
+    margin-top: 5px;
+}
+
+.content button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+    
+}
+
+.contact-container{
+    width:550px;
+    margin: 0px auto;
+}
+
+.contact-container h1{
+    text-align: center;
+}
+
+form table input{
+    padding: 3px 5px;
+}
+
+form table{
+    margin: 10px auto;
+}
+
+.submit{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.A{
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    border: solid orangered;
+    border-radius: 5px;
+}

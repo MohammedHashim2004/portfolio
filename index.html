@@ -1,49 +1,87 @@
-<link rel="stylesheet" href="portf.css">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-
-    <head>
-        <div class="section-one">
-            <h1 class="section-one__name">Mohammede Hashim</h1>
-            <h4 class="section-one__role">Web Developer</h4>
-            <a class="section-one__contact" href="contact.html">contact</a>
+    <header>
+        <h1>Frozen Hub</h1>
+        <nav><ul><li>Home</li>
+            <li class="active">Menu</li>
+            <li>Contact</li>
+        </ul></nav>
+    </header>
+    <section id="menu">
+        <div class="container">
+            <div class="card">
+                <div class="img">
+                    <img src="https://3.imimg.com/data3/EX/YP/MY-8770460/k_falooda-500x500.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Faloda</h2>
+                    <p>The Perfect Summer Treat</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY1p8LbgNXYGBheDmxAI7c4UU8m0BmcVN8pw&s" alt="">
+                </div>
+                <div class="content">
+                    <h2>Pista Kulfi</h2>
+                    <p>Kulfi cravings satisfied</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://images.jdmagicbox.com/rep/b2b/Flavoured-Ice-Cream/Flavoured-Ice-Cream-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Tasty Choco Bar</h2>
+                    <p>The Perfect Treat For a Rainy Day</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://m.media-amazon.com/images/I/61KQmPK8EPL.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Oreo Cone IceCream</h2>
+                    <p>Enjoying a Scoop of Happiness</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
         </div>
-        <div class="section-two">
-        <h2 class="section-two__title">About Me</h2>
-        <p class="section-two__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur provident id fugiat eveniet qui non.
-            Voluptatum
-            quisquam libero, quos deserunt incidunt perspiciatis harum, eligendi adipisci ducimus vel, ullam placeat!
-            In.
-        </p>
-        </div>
-        <div class="section-three">
+    </section>
 
-        <h2 class="section-three__title">My Intrests</h2>
-        <ul class="section-three__description">
-            <li>Web Development</li>
-            <li>Watching Football</li>
-            <li>Reading Books</li>
-            <li>Photography</li>
-        </ul>
+    <footer>
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td><label>Name:</label></td>
+                        <td><input type="text" placeholder="Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Age:</label></td>
+                        <td><input type="text" placeholder="Age"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email:</label></td>
+                        <td><input type="email" placeholder="Email"></td>
+                    </tr>
+                </table>
+                <div class="submit">
+                <button class="A">submit</button>
+            </div>
+            </form>
         </div>
-        <div class="section-four">
-
-        <h2 class="section-four__title">My Project</h2>
-        <ul class="section-four__description">
-            <li>
-                <h2>Amazon Clone</h2>
-                <p>I Completed Amazon Clone With React Js (Frontend App)</p>
-            </li>
-            <li>
-                <h2>Travel Website</h2>
-                <p>I have Completed a Travel Website Which is going to help many people to take a trip with them</p>
-            </li>
-        </ul>
-        </div>
-        <div class="section-five">
-
-        <a style="font-size: 20px;">Social Media:</a><a href="#">Instagram - Facebook - LinkedIn</a>
-        <p class="section-five__title"> &copy;Mohammed Hashim </p>
-    </div>
-    </head>
+    </footer>
 </body>
+</html>
